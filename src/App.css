@@ -1,4 +1,4 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,500;1,600&family=Pacifico&family=Sniglet&display=swap');.App {
   text-align: center;
 }
 
@@ -35,4 +35,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav_bg{
+  font-family: 'Nunito', sans-serif;
+  font-size: large;
+}
+
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #282c34;
 }
